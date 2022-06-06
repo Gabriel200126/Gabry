@@ -1,16 +1,17 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
  *{
      box-sizing: border-box;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-family: 'Rajdhani', sans-serif;
  }
  
  body{background-color: black;
      }
  nav{
-     background-color: rgb(8, 8, 8);
+     background-color: rgb(16, 15, 15);
      color: white;
      display: inline-block;
-     padding: 5rem;
-     padding-bottom: 15rem;
+     padding: 4rem;
+     padding-bottom: 20rem;
      margin-left: -1rem;
      margin-top: -2rem;
      position: fixed;
@@ -29,20 +30,42 @@ ul{
  li{
      margin-top: 3rem;
      list-style: none;
-
+     font-size: 1.08rem;
      cursor: pointer;
  }
 
  li:hover{
-     border-bottom: 2px dotted rgb(148, 21, 238);
-     transition: all 0.3s ease;
+     color: rgb(148, 21, 238);
+     transform: scale(1.5);
+     transition: all 1s ease-in-out;
      
  }
 
+#followMe{
+    margin-top: 7rem;
+    text-align: center;
+    font-weight: 100;
+    
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+
+.i{
+    width: 100%;
+    max-width: 1rem;
+    margin-left: 1rem;
+}
+
+
  .myName{
      border-bottom: 2px solid rgb(148, 21, 238);
-     text-align: center;
+     margin-left: 1rem;
      font-size: 2rem;
+     display: inline-block;
+     text-shadow: 3px 3px 3px rgb(148, 21, 238);
  }
 
  .text{
@@ -69,6 +92,8 @@ ul{
         margin-top: 0;
     }
 }
+
+
 
 
 
@@ -103,6 +128,34 @@ ul{
     font-size: 4em;
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
+    text-shadow: 3px 3px 3px rgb(148, 21, 238);
+}
+
+.direction{
+    margin-top: 10rem;
+    font-size: 2rem;
+    transform: rotate(90deg);
+    animation: dir 2.5s linear infinite;
+}
+.direction2{
+    transform: rotate(90deg);
+    margin-top: -2rem;
+    animation: dir 5s linear infinite;
+}
+a{
+    text-decoration: none;
+}
+
+@keyframes dir {
+    0%{
+        color: rgb(148, 21, 238);
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: rgb(148, 21, 238);
+    }
 }
 
 
@@ -125,20 +178,28 @@ ul{
 
 
 .about{
-        
-    background: url('sub.webp') no-repeat center / cover;
-    height: 70vh;
+    margin-left: 20rem;
+   
     position: relative;
     z-index: 1;
-    margin-top: -2rem;
+    margin-top: 2rem;
     height: 41rem;
     color: white;
+    border-bottom: 2px solid rgb(148, 21, 238);
+    
 
 
 }
+.about-section{
+    
+    display: inline-block;
+    text-shadow: 3px 3px 3px rgb(148, 21, 238);
+}
+
 
 
 .about::before{
+
 position: absolute;
 content: '';
 top: 0;
@@ -149,3 +210,172 @@ height: 100%;
 
 z-index: -1;
 }
+
+
+.cv{
+   
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
+.hireMe2{
+   font-size: 1rem !important; 
+    background-color: rgb(148, 21, 238);
+    border: 2px solid rgb(148, 21, 238);
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.hireMe2:hover{
+    background-color: black;
+}
+
+
+.hireMeCV{
+    font-size: 1rem !important; 
+    margin-left: 0.8rem;
+    background-color: black;
+    border: 2px solid rgb(148, 21, 238);
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.hireMeCV:hover{
+    background-color: rgb(148, 21, 238);
+}
+
+.me{
+    margin-left: 3rem;
+    width: 100%;
+    max-width: 28rem;
+    height: 35rem;
+    margin-top: 5rem;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+
+.me:hover{
+    transform: scale(1.5);
+    z-index: 999;
+    margin-left: -15rem;
+    transition: all 2s ease-in-out;
+    
+
+}
+
+
+.all-about{
+    display: flex;
+    
+}
+
+.phone-mail{
+    display: flex;
+    margin-top: 7.5rem;
+}
+
+.phone{
+    background-color: rgb(16, 15, 15);
+    padding: 4rem 4rem 4rem 4rem;
+    border: 2px solid rgb(148, 21, 238);
+    animation: filter1 5s linear infinite;
+}
+
+.number{
+    font-size: 0.6rem !important;
+    cursor: pointer;
+    text-shadow: 3px 3px 3px rgb(148, 21, 238);
+    
+}
+
+.number:hover{
+    transform: scale(1.5);
+    z-index: 999;
+}
+
+@keyframes filter1 {
+    0%{
+        border: 2px solid rgb(255, 255, 255);
+    }
+     50%{
+        border: 2px solid rgb(148, 21, 238);
+     }
+
+     100%{
+        border: 2px solid rgb(255, 255, 255);
+     }
+}
+
+
+
+.Email{
+    background-color: rgb(16, 15, 15);
+    padding: 4rem 4rem 4rem 4rem;
+    margin-left: 2rem;
+    border: 2px solid rgb(148, 21, 238);
+    animation: filter 5s linear infinite;
+}
+
+@keyframes filter {
+    0%{
+        border: 2px solid rgb(148, 21, 238);
+    }
+     50%{
+        border: 2px solid rgb(255, 255, 255);
+     }
+
+     100%{
+        border: 2px solid rgb(148, 21, 238);
+     }
+}
+
+
+
+.service{
+    margin-left: 20rem;
+    margin-top: 7rem;
+}
+
+.service-section{
+    color: white;
+    text-shadow: 3px 3px 3px rgb(148, 21, 238);
+    font-size: 2rem;
+}
+.title{
+    font-size: 2rem;
+}
+
+.works{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.design, .dev, .ph{
+    border-left: 10px solid rebeccapurple;
+    background-color: rgb(16, 15, 15);
+    text-align: center;
+    padding: 2rem 3rem 2rem 3rem;
+    margin-top: 2rem;
+}
+.dev, .ph{
+    margin-left: 4rem;
+}
+
+.n{
+    font-size: 1.5rem !important;
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: 2px solid rgb(148, 21, 238);
+
+}
+
