@@ -1,0 +1,280 @@
+@media (min-width:1420px) {
+    .about, .service,.projects{
+       margin-left: 25rem;
+    }
+    .section-project{
+        margin-left: 5rem;
+    }
+    .all-section{
+        margin-left: 5rem;
+    }
+
+    .all-contact{
+        margin-left: 13rem;
+    }
+
+   
+
+}
+@media (min-width:1600px) {
+    .about, .service,.projects{
+       margin-left: 30rem;
+    }
+    .all-contact{
+        margin-left: 18rem;
+    }
+
+
+}
+
+@media (min-width:1700px) {
+    .about, .service,.projects{
+       margin-left: 35rem;
+    }
+    .all-contact{
+        margin-left: 23rem;
+    }
+
+}
+
+@media (min-width:1900px) {
+    .about, .service,.projects{
+       margin-left: 40rem;
+    }
+    .all-contact{
+        margin-left: 28rem;
+    }
+
+}
+
+@media (min-width:2100px) {
+    .about, .service,.projects{
+       margin-left: 45rem;
+
+    }
+    .all-contact{
+        margin-left: 33rem;
+    }
+
+
+}
+
+@media(max-width:1330px){
+    .phone, .Email{
+        padding: 2rem 3rem 2rem 3rem;
+    }
+}
+
+
+@media(max-width:1200px){
+    .cv{
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .hireMeCV{
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+    .phone-mail{
+        flex-direction: column;
+        margin-top: 0;
+        text-align: center;
+
+    }
+    .number{
+        font-size: 1rem !important;
+    }
+    .Email{
+        margin-left: 0;
+
+    }
+    .me{
+        display: none;
+    }
+    .me2{
+        display: block;
+    }
+    .all-about{
+        justify-content: center;
+    }
+
+    .works{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .service-section{
+        margin-left: 7rem;
+        text-align: center;
+    }
+    .service{
+        margin-left: 18rem;
+        margin-top: 40rem;
+        
+    }
+    .section-project{
+        justify-content: center;
+    }
+
+    
+    
+    .design,.dev,.ph{
+        margin-left: 0rem;
+        padding: 0;
+        display: inline-block;
+        padding: 5rem;
+    }
+
+    .img-port-1,.img-port-2{
+        flex-direction: column
+        ;
+    }
+    .tem, .click-img{
+        margin-left: 0rem;
+    }
+    .all-section{
+        justify-content: center;
+        margin-left: 1rem;
+    }
+    .tem, .click-img{
+        margin-top: 1rem;
+    }
+
+    .all-contact{
+        flex-direction: column;
+    }
+    form{
+        margin-left: 15rem;
+    }
+    .c-form{
+        justify-content: center;
+        margin-left: 6rem;
+    }
+    
+    
+}
+
+@media(max-width:900px){
+    .all-absolute{
+        margin-left: -4rem;
+    }
+    .icon{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .about{
+        margin-left: 3rem;
+    }
+    .hireMeCV{
+        margin-left: 0;
+    }
+    .text{
+        left: 50%;
+    }
+    .phone-mail{
+        margin-top: 1rem;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .service-section{
+        margin-left: 7.5rem;
+        text-align: center;
+    }
+    .service{
+        margin-left: 6rem;
+    }
+    
+    .design,.dev{
+        margin-left: 0rem;
+        padding: 0;
+        display: inline-block;
+        padding: 5rem;
+        
+        
+    }
+    .all-section{
+        margin-left: 7rem;
+    }
+
+    .projects{
+        margin-left: 0;
+    }
+
+    form{
+        margin-left: 0rem;
+    }
+    .c-form{
+        justify-content: center;
+        margin-left: 5rem;
+    }
+    .contact-1{
+        margin-left: 2.2rem;
+    }
+
+}
+
+@media(max-width:700px){
+    .all-absolute{
+        margin-left: 0;
+    }
+    .all-about{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .about{
+        margin-left: 0;
+    }
+    .me2{
+        position: absolute;
+        top: 155%;
+        left: 50%;
+       transform: translate(-50%, -50% );
+    }
+    .service{
+        margin-left: 0;
+    }
+    .all-section{
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    .c-form{
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    .contact-1{
+        margin-left: 3.3rem;
+    }
+}
+
+@media(max-width: 450px){
+    nav{
+        padding: 1rem;
+        margin-top: 0;
+    }
+    .about{
+        margin-left: 0rem;
+    }
+    .c-form{
+        justify-content: center;
+        margin-left: 0rem;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .contact-1{
+        margin: 1rem;
+    }
+}
+
+@media(max-width: 350px){
+    .contact-1{
+        margin: 0;
+    }
+}
+
+
+
