@@ -519,6 +519,7 @@ z-index: -1;
 .all-contact{
     margin-top: 5rem;
     display: flex;
+    margin-left: 17rem;
 }
 
 .country{
@@ -535,17 +536,6 @@ z-index: -1;
 }
 
 
-.contact-1{
-    margin-top: 3rem;
-    border: 2px solid rgb(148, 21, 238);
-    color: white;
-    display: flex;
-    flex-direction: column;margin-left: 17rem;
-    background-color: rgb(16, 15, 15);
-    height: 22rem;
-    width: 100%;
-    max-width: 20em;
-}
 
 .c-form{
     display: flex;
@@ -555,7 +545,7 @@ z-index: -1;
 
 form { max-width:420px; margin-left: 20rem; margin-top: 3rem; }
 
-.feedback-input {
+.feedback-input{
   color:white;
   font-weight:500;
   font-size: 18px;
@@ -570,6 +560,18 @@ form { max-width:420px; margin-left: 20rem; margin-top: 3rem; }
   box-sizing: border-box;
   outline:0;
  
+}
+
+.contact-1{
+    color:white;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid rgb(148, 21, 238);
+    transition: all 0.3s;
+    width:100%;
+    max-width: 20rem;
+    box-sizing: border-box;
 }
 
 .feedback-input:focus { border:2px solid rgb(148, 21, 238); }
