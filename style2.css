@@ -96,7 +96,7 @@
     }
     .all-about{
         justify-content: center;
-        text-align:center;
+        text-align: center;
     }
 
     .works{
@@ -142,14 +142,19 @@
     }
 
     .all-contact{
-        flex-direction: column;
+       justify-content: center;
+       flex-direction: column;
     }
     form{
-        margin-left: 15rem;
+         margin-left: 0;
     }
+    .contact-1{
+        margin-left: 3.7rem;
+    }
+    
     .c-form{
         justify-content: center;
-        margin-left: 6rem;
+    
     }
     
     
@@ -205,15 +210,18 @@
     }
 
     form{
-        margin-left: 0rem;
-    }
-    .c-form{
-        justify-content: center;
-        margin-left: 5rem;
-    }
-    .contact-1{
-        margin-left: 2.2rem;
-    }
+        margin-left: 0;
+   }
+   .contact-1{
+       margin-left: 2.8rem;
+   }
+   
+   .c-form{
+       justify-content: center;
+       margin-left: -13rem;
+   
+   }
+    
 
 }
 
@@ -241,13 +249,19 @@
         justify-content: center;
         margin-left: 0rem;
     }
-    .c-form{
-        justify-content: center;
-        margin-left: 0rem;
-    }
-    .contact-1{
-        margin-left: 3.3rem;
-    }
+    form{
+        margin-left: 0;
+   }
+   .contact-1{
+       margin-left: 2.5rem;
+   }
+   
+   .c-form{
+       justify-content: center;
+       margin-left: -16rem;
+   
+   }
+    
 }
 
 @media(max-width: 450px){
@@ -258,24 +272,31 @@
     .about{
         margin-left: 0rem;
     }
-    .c-form{
-        justify-content: center;
-        margin-left: 0rem;
-    }
+    form{
+        margin-left: 0;
+   }
+   .contact-1{
+       margin-left: 2.9rem;
+   }
+   
+   .c-form{
+       justify-content: center;
+       margin-left: -17rem;
+   
+   }
     
 }
 
-@media(max-width: 400px){
-    .contact-1{
-        margin: 1rem;
-    }
+@media(max-width: 410px){
+    
+   .contact-1{
+    margin-left: 2rem;
+}
 }
 
-@media(max-width: 350px){
+@media(max-width: 380px){
+    
     .contact-1{
-        margin: 0;
-    }
-}
-
-
-
+     margin-left: 1rem;
+ }
+ }
