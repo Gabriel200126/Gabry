@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
-=======
- @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
  *{
      box-sizing: border-box;
      font-family: 'Rajdhani', sans-serif;
@@ -10,11 +6,7 @@
  
  body{background-color: black;
      }
-<<<<<<< HEAD
  .nav{
-=======
- nav{
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
      background-color: rgb(16, 15, 15);
      color: white;
      display: inline-block;
@@ -51,7 +43,6 @@ ul{
      
  }
 
-<<<<<<< HEAD
  .icon{
      display: none;
      margin-top: 2rem;
@@ -72,8 +63,6 @@ ul{
 
  }
 
-=======
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
 #followMe{
     margin-top: 7rem;
     text-align: center;
@@ -142,8 +131,6 @@ ul{
  }
 
 
-
-
  .main{
         
         background: url('banner.jpg') no-repeat center / cover;
@@ -179,11 +166,7 @@ ul{
 }
 
 .direction{
-<<<<<<< HEAD
     margin-top: 1rem;
-=======
-    margin-top: 10rem;
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
     font-size: 2rem;
     transform: rotate(90deg);
     animation: dir 2.5s linear infinite;
@@ -229,11 +212,7 @@ a{
 
 
 .about{
-<<<<<<< HEAD
     margin-left:12rem;
-=======
-    margin-left: 20rem;
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
    
     position: relative;
     z-index: 1;
@@ -246,10 +225,7 @@ a{
 
 }
 .about-section{
-<<<<<<< HEAD
     border-bottom: 2px solid rgb(148, 21, 238);
-=======
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
     
     display: inline-block;
     text-shadow: 3px 3px 3px rgb(148, 21, 238);
@@ -312,17 +288,12 @@ z-index: -1;
 }
 
 .me{
-<<<<<<< HEAD
     margin-left:2rem;
-=======
-    margin-left: 3rem;
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
     width: 100%;
     max-width: 28rem;
     height: 35rem;
     margin-top: 5rem;
     transition: all 0.5s ease-in-out;
-<<<<<<< HEAD
 }
 
 .me2{
@@ -336,36 +307,16 @@ z-index: -1;
     display: none;
 }
 
-=======
-   
-
-}
-
-.me:hover{
-    transform: scale(1.5);
-    z-index: 999;
-    margin-left: -15rem;
-    transition: all 2s ease-in-out;
-    
-
-}
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
 
 
 .all-about{
     display: flex;
-<<<<<<< HEAD
    
     margin-left: 5rem;
 }
 
 
 
-=======
-    
-}
-
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
 .phone-mail{
     display: flex;
     margin-top: 7.5rem;
@@ -429,29 +380,20 @@ z-index: -1;
 
 
 .service{
-<<<<<<< HEAD
     margin-left:17rem;
     margin-top: 7rem;
   
 }
 .section-project{
     display: flex;
-    
-=======
-    margin-left: 20rem;
-    margin-top: 7rem;
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
 }
 
 .service-section{
     color: white;
     text-shadow: 3px 3px 3px rgb(148, 21, 238);
     font-size: 2rem;
-<<<<<<< HEAD
     border-bottom: 2px solid rgb(148, 21, 238);
     display: inline-block;
-=======
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
 }
 .title{
     font-size: 2rem;
@@ -464,7 +406,6 @@ z-index: -1;
 }
 
 .design, .dev, .ph{
-<<<<<<< HEAD
     border-left: 10px solid rgb(148, 21, 238);
     border-top: 10px solid transparent;
     border-right: 10px solid transparent;
@@ -490,16 +431,6 @@ z-index: -1;
 }
 .dev, .ph{
     margin-left: 6.7rem;
-=======
-    border-left: 10px solid rebeccapurple;
-    background-color: rgb(16, 15, 15);
-    text-align: center;
-    padding: 2rem 3rem 2rem 3rem;
-    margin-top: 2rem;
-}
-.dev, .ph{
-    margin-left: 4rem;
->>>>>>> 8690628d248fb739114eec0ac6f36c9f5b55b7ca
 }
 
 .n{
@@ -510,7 +441,6 @@ z-index: -1;
 
 }
 
-<<<<<<< HEAD
 
 
 
@@ -623,7 +553,7 @@ z-index: -1;
 
 
 
-form { max-width:420px; margin-left: 21rem; margin-top: 3rem; }
+form { max-width:420px; margin-left: 20rem; margin-top: 3rem; }
 
 .feedback-input {
   color:white;
@@ -671,164 +601,4 @@ a{
     text-decoration: none;
     color: white;
 }
-
-
-
-=======
-@media (min-width:1420px) {
-    .about{
-       margin-left: 25rem;
-    }
-
-}
-@media (min-width:1600px) {
-    .about{
-       margin-left: 30rem;
-    }
-
-}
-
-@media (min-width:1700px) {
-    .about{
-       margin-left: 35rem;
-    }
-
-}
-
-@media (min-width:1900px) {
-    .about{
-       margin-left: 40rem;
-    }
-
-}
-
-@media (min-width:2100px) {
-    .about{
-       margin-left: 45rem;
-    }
-
-}
-
-@media(max-width:1330px){
-    .phone, .Email{
-        padding: 2rem 3rem 2rem 3rem;
-    }
-}
-
-
-@media(max-width:1200px){
-    .cv{
-        box-sizing: border-box;
-        flex-direction: column;
-    }
-    .hireMeCV{
-        margin-top: 1rem;
-        margin-left: 0;
-    }
-    .phone-mail{
-        flex-direction: column;
-        margin-top: 0;
-        text-align: center;
-
-    }
-    .number{
-        font-size: 1rem !important;
-    }
-    .Email{
-        margin-left: 0;
-
-    }
-    .me{
-        display: none;
-       
-    }
-    .all-about{
-        justify-content: center;
-    }
-
-    .works{
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .service-section{
-        margin: 0;
-        text-align: center;
-    }
-    .service{
-        margin-left: 17rem;
-    }
-    
-    .design,.dev,.ph{
-        margin-left: 0rem;
-        padding: 0;
-        display: inline-block;
-        padding: 5rem;
-        
-        
-    }
-    
-}
-
-@media(max-width:900px){
-    
-    nav{
-        display: none;
-    }
-    .about{
-        margin-left: 3rem;
-    }
-    .hireMeCV{
-        margin-left: 0;
-    }
-    .text{
-        left: 50%;
-    }
-    .phone-mail{
-        margin-top: 1rem;
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .service-section{
-        margin: 0;
-        text-align: center;
-    }
-    .service{
-        margin-left: 0rem;
-    }
-    
-    .design,.dev{
-        margin-left: 0rem;
-        padding: 0;
-        display: inline-block;
-        padding: 5rem;
-        
-        
-    }
-
-}
-
-@media(max-width:700px){
-    .all-about{
-        flex-direction: column;
-        margin-left: 0;
-    }
-    .about{
-        margin-left: 0;
-    }
-    
-}
-
-@media(max-width: 450px){
-    nav{
-        padding: 1rem;
-        margin-top: 0;
-    }
-    .about{
-        margin-left: 0rem;
-    }
-}
-
-
 
