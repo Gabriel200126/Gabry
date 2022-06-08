@@ -1,18 +1,13 @@
 <?php
+$to = 'gabriel.dumitru2123@gmail.com':
+$subject = 'test';
+$from = 'raga.gafa35@gmail.com';
 
-
-if($_POST["Hello"]) {
-
-
-mail("gabriel.dumitru2123@gmail.com", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: raga.gafa35@gmail.com");
-
-
+if(mail($to, $subject)){
+    echo 'success'
+}else{
+    'faild'
 }
-
-
 ?>
    
    
