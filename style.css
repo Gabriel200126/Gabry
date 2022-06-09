@@ -3,7 +3,11 @@
      box-sizing: border-box;
      font-family: 'Rajdhani', sans-serif;
  }
- 
+
+html {
+  scroll-behavior: smooth;
+}
+
  body{background-color: black;
      }
  .nav{
